@@ -64,7 +64,6 @@ import javafx.stage.Stage;
  *         stage - main window of the application)
  */
 
-
 public class Game extends Application {
     // Created game map
     private Map map;

@@ -17,12 +17,10 @@ public class Food {
     private Circle circle;
     private Position foodPosition;
     private Label seconds;
-    private final int timer = 5;
     private int numOfCircles = 10;
     private int time;
     private int points;
     private int size;
-    private int[][] cells;
 
     public Food(Map var1, Player var2) {
         this.map = var1;
@@ -30,7 +28,6 @@ public class Food {
         this.map.getChildren().add(this.foodPane);
         this.player = var2;
         this.size = this.map.getSize();
-        this.cells = this.map.getMap();
         Thread var3 = new Thread(() -> {
             while (this.numOfCircles > 0) {
                 this.createFood();

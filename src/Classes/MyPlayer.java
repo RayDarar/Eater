@@ -60,6 +60,7 @@ public class MyPlayer implements Player {
         case S:
             moveDown();
             break;
+        default:
         }
 
         ball.setCenterX(position.getX() * map.getUnit() + map.getUnit() / 2);
