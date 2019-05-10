@@ -15,6 +15,7 @@ import Classes.MyPlayer;
 import Classes.Player;
 import Classes.Position;
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
@@ -62,6 +63,7 @@ import javafx.stage.Stage;
  * @method start - javafx method for logic when starting the application (param:
  *         stage - main window of the application)
  */
+
 
 public class Game extends Application {
     // Created game map
@@ -251,10 +253,12 @@ public class Game extends Application {
     }
 
     public static void end(int score) {
-        Alert alert = new Alert(AlertType.INFORMATION);
-        alert.setTitle("Game over");
-        alert.setHeaderText("Game over. Your score is: " + score);
-        alert.showAndWait();
+        Platform.runLater(() -> {
+            Alert alert = new Alert(AlertType.INFORMATION);
+            alert.setTitle("Game over");
+            alert.setHeaderText("Game over. Your score is: " + score);
+            alert.showAndWait();
+        });
     }
 
     @Override
