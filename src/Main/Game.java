@@ -1,3 +1,5 @@
+package Main;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -45,6 +47,10 @@ import javafx.stage.Stage;
  * @version 0.6 Creating MyBotPlayer class, which implements BotPlayer interface
  * 
  * @version 0.7 Implementing graph and bfs algorithm for bot
+ * 
+ * @version 0.8 writing random map generation
+ * 
+ * @version 0.9 Putting Game.java in Main package + method for finished game
  * 
  * @method main - Starting point of the application (param: args - console
  *         arguments)
@@ -242,6 +248,13 @@ public class Game extends Application {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    public static void end(int score) {
+        Alert alert = new Alert(AlertType.INFORMATION);
+        alert.setTitle("Game over");
+        alert.setHeaderText("Game over. Your score is: " + score);
+        alert.showAndWait();
     }
 
     @Override

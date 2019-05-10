@@ -1,6 +1,8 @@
 package Classes;
 
 import java.util.Random;
+
+import Main.Game;
 import javafx.application.Platform;
 import javafx.scene.Node;
 import javafx.scene.control.Label;
@@ -64,7 +66,7 @@ public class Food {
                 --this.numOfCircles;
             }
 
-            System.out.println(this.getPoints());
+            Game.end(points);
         });
         var3.start();
     }
