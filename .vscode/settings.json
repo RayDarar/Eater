@@ -1,4 +1,7 @@
 {
     "java.dependency.packagePresentation": "flat",
-    "java.dependency.syncWithFolderExplorer": false
+    "java.dependency.syncWithFolderExplorer": false,
+    "cSpell.words": [
+        "player"
+    ]
 }
