@@ -11,6 +11,7 @@ Students had ready class diagram:
 <p align="center">
     <img src="res/Class diagram.jpg">
 </p>
+
 The task is only to implement this diagram and write two players. <br>
 Gameplay: collect all the food which will randomly spawn on the map. <br>
 There are several ways to create a map:
@@ -48,8 +49,9 @@ There's two types of player <br>
 * Making research
 
 **Version 5.0**
-* Implementing graph theory + BFS algorithm
+* Implementing graph + BFS algorithm
 * Refactoring Game class
+* Refactoring MyBotPlayer class
 
 **Version 6.0**
 * Implementing random map generation

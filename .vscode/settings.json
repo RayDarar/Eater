@@ -1,9 +1,6 @@
 {
     "java.dependency.packagePresentation": "flat",
     "java.dependency.syncWithFolderExplorer": false,
-    "cSpell.words": [
-        "player"
-    ],
     "cSpell.enabled": true,
-    "cSpell.language": "en, ru"
+    "cSpell.language": "en, ru",
 }
