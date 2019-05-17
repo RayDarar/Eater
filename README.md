@@ -3,13 +3,18 @@ SDU's Programming Technologies project <br>
 
 **Bold**
 `Code`
-```language
-Fenced code block
+```C++
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, World!";
+    return 0;
+}
 ```
 <br>
 Horizontal rule
 ----------
-![alt](https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
+![alt](https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg)
 <br>
 
 *Italic*
