@@ -33,35 +33,6 @@ import javafx.stage.Stage;
  * Game class extends javafx Application. Launch gui
  * 
  * @author Ryspekov Ansar
- * 
- * @version 0.1 Writing base of the project, working with
- *          packages/folders/resources.
- * 
- * @version 0.2 Writing sequence of methods calls w/o logic
- * 
- * @version 0.3 Commenting each method
- * 
- * @version 0.4 Writing basic logic
- * 
- * @version 0.5 Completing part 1 of the project
- * 
- * @version 0.6 Creating MyBotPlayer class, which implements BotPlayer interface
- * 
- * @version 0.7 Implementing graph and bfs algorithm for bot
- * 
- * @version 0.8 writing random map generation
- * 
- * @version 0.9 Putting Game.java in Main package + method for finished game
- * 
- * @method main - Starting point of the application (param: args - console
- *         arguments)
- * 
- * @method objectsSetup - showing menu for map loading settings
- * 
- * @method mapSetup - creating instances for objects
- * 
- * @method start - javafx method for logic when starting the application (param:
- *         stage - main window of the application)
  */
 
 public class Game extends Application {

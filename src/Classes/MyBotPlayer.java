@@ -14,22 +14,6 @@ import javafx.scene.shape.Circle;
 
 /**
  * Bot for playing Eater game
- * 
- * @method feed - set Food instance reference from Game class
- * 
- * @method move - moves bot using shortest path
- * 
- * @method moveLeft - moves bot by one to the left
- * 
- * @method moveRight - moves bot by one to the right
- * 
- * @method moveUp - move bot up by one
- * 
- * @method moveDown - move bot down by one
- * 
- * @method getPosition - return current position of the bot
- * 
- * @method eat - triggers find and move methods
  */
 
 class Graph {

@@ -12,14 +12,6 @@ import javafx.scene.shape.Rectangle;
 /**
  * Class Map for holding all the game objects. Constructed from a given text
  * file
- * 
- * @method getUnit - return length of one cell
- * 
- * @method getSize - return size of the map (size X size)
- * 
- * @method getMap - return data representation of the map
- * 
- * @method getPosition - return position of the player
  */
 
 public class Map extends Pane {

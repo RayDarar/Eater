@@ -7,18 +7,6 @@ import javafx.scene.shape.Circle;
 /**
  * Implements the Player interface. Creates the player as a ball on the board.
  * Moves the ball
- * 
- * @method move - changes position of the ball
- * 
- * @method moveLeft - move player to the left by one cell
- * 
- * @method moveRight - move player to the right by one cell
- * 
- * @method moveUp - moves player up by one cell
- * 
- * @method moveDown - moves player down by one cell
- * 
- * @method getPosition - return current position of player on the map
  */
 
 public class MyPlayer implements Player {

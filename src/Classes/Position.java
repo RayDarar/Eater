@@ -2,16 +2,6 @@ package Classes;
 
 /**
  * Stores the position (x and y coordinates)
- * 
- * @method getX - return value of x
- * 
- * @method getY - return value of Y
- * 
- * @method setX - set new value of x
- * 
- * @method setY - set new value of y
- * 
- * @method equals - compares coordinates of two positions
  */
 
 public class Position {
