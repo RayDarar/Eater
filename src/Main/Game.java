@@ -30,7 +30,7 @@ import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
 /**
- * Game class extends javafx Application. Launching gui
+ * Game class extends javafx Application. Launch gui
  * 
  * @author Ryspekov Ansar
  * 
