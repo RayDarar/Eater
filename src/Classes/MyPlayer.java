@@ -5,8 +5,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 
 /**
- * Implements the Player interface. Creates the player as a ball on the board.
- * Moves the ball
+ * Implements the Player interface. Creates the player as a ball on the board. Moves the ball
  */
 
 public class MyPlayer implements Player {
