@@ -1,6 +1,5 @@
 {
     "java.dependency.packagePresentation": "flat",
     "java.dependency.syncWithFolderExplorer": false,
-    "cSpell.enabled": true,
     "cSpell.language": "en, ru",
 }

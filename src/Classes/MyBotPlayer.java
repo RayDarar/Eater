@@ -224,7 +224,7 @@ public class MyBotPlayer implements BotPlayer {
                 ball.setCenterY(position.getY() * map.getUnit() + map.getUnit() / 2);
                 try {
                     int max = 2000 / movingPath.size();
-                    int min = max / 2;
+                    int min = (int) (max / 2.5);
                     int speed = rnd.nextInt(max + min) + min;
                     Thread.sleep(speed);
                 } catch (InterruptedException e) {
