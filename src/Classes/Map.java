@@ -10,7 +10,8 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 
 /**
- * Class Map for holding all the game objects. Constructed from a given text file
+ * Class Map for holding all the game objects. Constructed from a given text
+ * file
  */
 
 public class Map extends Pane {

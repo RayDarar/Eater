@@ -1,3 +1,4 @@
 res/Map_random.txt
-.vscode
-.settings
+.vscode/
+.settings/
+bin/
