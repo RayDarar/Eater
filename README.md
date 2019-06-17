@@ -56,3 +56,6 @@ There's two types of player <br>
 **Version 6.0**
 * Implementing random map generation
 * Writing method for the end game
+
+# Authors
+@RayDarar
